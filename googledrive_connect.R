@@ -1,7 +1,7 @@
 #connect to googledrive
 
 library(googledrive)
-#drive_auth()
+drive_auth()
 
 #find files
 drive_find(type='xlsx')
